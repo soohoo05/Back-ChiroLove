@@ -1,7 +1,7 @@
 class ChiropractorsController < ApplicationController
   def show
 @results=GoogleAdapter.get_places("dummy")
-byebug
+render json: @results
   end
 
   def find
