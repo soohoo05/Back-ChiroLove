@@ -23,4 +23,4 @@
 /config/master.key
 
 
-/app/adapter/key_adapter.rb
+key_adapter.rb
